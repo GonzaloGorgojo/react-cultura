@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/cultura/static/css/main.19d0bdbf.css",
-    "main.js": "/cultura/static/js/main.3e8978f1.js",
+    "main.css": "/cultura/static/css/main.39dfd1e3.css",
+    "main.js": "/cultura/static/js/main.8009b8d0.js",
+    "static/media/main1.png": "/cultura/static/media/main1.c996e58669dae6d0e06e.png",
     "static/media/about.png": "/cultura/static/media/about.344c7be9f17c8a2db9c9.png",
     "static/media/1.jpg": "/cultura/static/media/1.9eda7507794e5003e3c1.jpg",
     "static/media/3.jpg": "/cultura/static/media/3.9c084c815f3e1779a972.jpg",
     "static/media/6.jpg": "/cultura/static/media/6.38e36121d6c3f32bb3e0.jpg",
     "static/media/4.jpg": "/cultura/static/media/4.81f78ee2a688766dd10a.jpg",
+    "static/media/main3.jpg": "/cultura/static/media/main3.9808a572d7074ee44804.jpg",
     "static/media/5.jpg": "/cultura/static/media/5.e455f532dc3a17cf30b5.jpg",
     "static/media/2.jpg": "/cultura/static/media/2.08e1cf716b3f3ee0febd.jpg",
     "static/media/qr.png": "/cultura/static/media/qr.dc8eceb2868ca06b1f23.png",
     "static/media/mainLogo.png": "/cultura/static/media/mainLogo.c68741e7af5b726952ae.png",
     "index.html": "/cultura/index.html",
-    "main.19d0bdbf.css.map": "/cultura/static/css/main.19d0bdbf.css.map",
-    "main.3e8978f1.js.map": "/cultura/static/js/main.3e8978f1.js.map"
+    "main.39dfd1e3.css.map": "/cultura/static/css/main.39dfd1e3.css.map",
+    "main.8009b8d0.js.map": "/cultura/static/js/main.8009b8d0.js.map"
   },
   "entrypoints": [
-    "static/css/main.19d0bdbf.css",
-    "static/js/main.3e8978f1.js"
+    "static/css/main.39dfd1e3.css",
+    "static/js/main.8009b8d0.js"
   ]
 }
