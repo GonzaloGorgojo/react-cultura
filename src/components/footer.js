@@ -1,9 +1,9 @@
 import QR from "../assets/qr.png";
 export default function Footer() {
   return (
-    <div class="flex bg-neutral-900 justify-around p-2">
+    <div class="flex bg-neutral-900 justify-around p-3">
       <div class="flex flex-col justify-center ">
-        <p class="text-[1.5rem] text-orange-400 font-mono">
+        <p class=" text-lg sm:text-[1.5rem] text-orange-400 ">
           Conoce mas en <br />
           nuestras redes
         </p>
@@ -12,7 +12,7 @@ export default function Footer() {
           href="https://instagram.com/cultura_nam"
           target="_blank"
           rel="noreferrer"
-          class=" flex items-center text-white mt-2 text-[1.3rem]"
+          class=" flex items-center text-white mt-2 text-base  sm:text-[1.3rem]"
         >
           <svg
             class="h-12 w-12 text-black"
@@ -35,7 +35,11 @@ export default function Footer() {
         </a>
       </div>
       <div class="">
-        <img class="h-48 w-48 rounded-lg" src={QR} alt="QR Cultura" />
+        <img
+          class="h-28 w-28 sm:h-48 sm:w-48 rounded-lg"
+          src={QR}
+          alt="QR Cultura"
+        />
       </div>
     </div>
   );

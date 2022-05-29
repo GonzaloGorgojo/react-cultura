@@ -5,26 +5,32 @@ import Logo from "../assets/mainLogo.png";
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div class="bg-gradient-to-r from-yellow-900 to-orange-900">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
-        <div class="flex items-center justify-between h-16 ">
-          <div class="flex-shrink-0 ">
-            <img class="h-10 w-10" src={Logo} alt="Logo Cultura" />
+    <div class="bg-slate-200">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-around sm:justify-between h-16">
+          <div class="flex-shrink-0">
+            <img class="h-14 w-14 rounded-lg" src={Logo} alt="Logo Cultura" />
           </div>
           <div class="hidden md:block ">
             <div class=" flex items-baseline space-x-4">
               <a
                 href="#about"
-                class=" hover:bg-gray-700 text-black px-3 py-2 rounded-md text-sm font-medium"
+                class="hover:text-yellow-700 text-black px-3 py-2 text-[1.5rem] font-black"
               >
                 Nosotros
               </a>
 
               <a
-                href="#images"
-                class="hover:bg-gray-700 text-black px-3 py-2 rounded-md text-sm font-medium"
+                href="#work"
+                class="hover:text-yellow-700 text-black px-3 py-2 text-[1.5rem] font-black"
               >
-                Fotos
+                Producto
+              </a>
+              <a
+                href="#mapa"
+                class="hover:text-yellow-700 text-black px-3 py-2 text-[1.5rem] font-black"
+              >
+                Encontranos
               </a>
             </div>
           </div>
@@ -86,20 +92,29 @@ function NavBar() {
         leaveTo="opacity-0 scale-95"
       >
         {(ref) => (
-          <div class="md:hidden bg-neutral-50">
-            <div ref={ref} class="px-2 pt-2 pb-3 space-y-1 sm:px-3 ">
+          <div class="md:hidden ">
+            <div
+              ref={ref}
+              class="flex flex-col items-center px-2 pt-2 pb-3 space-y-1 sm:px-3 "
+            >
               <a
                 href="#about"
-                class="bg-gradient-to-r from-yellow-900 to-orange-900 hover:bg-gray-700 text-white block px-3 py-2 rounded-md font-medium  text-center"
+                class="bg-gradient-to-r from-green-600 via-yellow-600 to-teal-400 hover:bg-gray-700 text-white block py-2 rounded-md font-medium  text-center w-[50vw]"
               >
                 Nosotros
               </a>
 
               <a
-                href="#images"
-                class="bg-gradient-to-r from-yellow-900 to-orange-900 hover:bg-gray-700 text-white block px-3 py-2 rounded-md font-medium text-center"
+                href="#work"
+                class="bg-gradient-to-r from-green-600 via-yellow-600 to-teal-400 hover:bg-gray-700 text-white block  py-2 rounded-md font-medium text-center w-[50vw]"
               >
-                Fotos
+                Producto
+              </a>
+              <a
+                href="#mapa"
+                class="bg-gradient-to-r from-green-600 via-yellow-600 to-teal-400 hover:bg-gray-700 text-white block  py-2 rounded-md font-medium text-center w-[50vw]"
+              >
+                Encontranos
               </a>
             </div>
           </div>
