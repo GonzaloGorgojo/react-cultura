@@ -9,10 +9,11 @@ function App() {
   return (
     <div>
       <NavBar />
-      <div class="bg-[url('assets/about.png')] bg-[length:100vw_100vh] bg-no-repeat  sm:bg-[length:100vw_100vh] bg-fixed">
-        <Tempeh />
+      <Tempeh />
+      <div class="bg-[url('assets/about.png')] bg-[length:100vw_80vh] bg-no-repeat bg-fixed">
+        <About />
       </div>
-      <About />
+
       <Work />
       <Map />
       <Footer />

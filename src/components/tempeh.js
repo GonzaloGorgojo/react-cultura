@@ -1,4 +1,3 @@
-import Main1 from "../assets/main1.png";
 import Main3 from "../assets/main3.jpg";
 import { GiSuperMushroom, GiStrong } from "react-icons/gi";
 import { RiPlantLine } from "react-icons/ri";
@@ -76,7 +75,7 @@ export default function Tempeh() {
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
             >
-              <img src={Main1} class="h-1/4" alt="tempeh" />
+              <img src={Main3} class="w-full" alt="tempeh" />
             </div>
           </div>
 

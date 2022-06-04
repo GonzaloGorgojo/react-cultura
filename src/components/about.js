@@ -1,13 +1,13 @@
 export default function About() {
   return (
     <div
-      class="flex flex-col justify-center items-center py-3 pb-5 border-b-2 border-slate-300"
+      class="flex flex-col  items-center py-3 pb-5 border-b-2 border-slate-300"
       id="about"
     >
       <h2 class="text-2xl font-bold mb-5 text-emerald-600">
         Un poco sobre Nosotros
       </h2>
-      <p class="bg-gradient-to-r from-green-600/50 via-yellow-600/50 to-teal-400/50 w-[90vw] sm:w-[60vw]  text-[1em] sm:font-mono p-2 rounded-lg text-justify shadow-xl shadow-indigo-500/50">
+      <p class="bg-gradient-to-r from-green-600/25 via-yellow-600/25 to-teal-400/25 w-[90vw] sm:w-[60vw]  text-[1em] sm:font-mono p-2 rounded-lg text-justify shadow-xl shadow-indigo-500/50">
         En un momento muy particular para la especie humana, donde es inevitable
         que todos nos detengamos a reflexionar, nos damos cuenta que todos somos
         parte de un mismo y único planeta, eso no nos limita a animarnos a
