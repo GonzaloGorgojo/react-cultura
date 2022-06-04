@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cultura/static/css/main.9aa20fcb.css",
-    "main.js": "/cultura/static/js/main.7aa9125b.js",
+    "main.css": "/cultura/static/css/main.34019dbd.css",
+    "main.js": "/cultura/static/js/main.2cc0e8fe.js",
     "static/media/about.png": "/cultura/static/media/about.344c7be9f17c8a2db9c9.png",
     "static/media/1.jpg": "/cultura/static/media/1.9eda7507794e5003e3c1.jpg",
     "static/media/3.jpg": "/cultura/static/media/3.9c084c815f3e1779a972.jpg",
@@ -13,11 +13,11 @@
     "static/media/qr.png": "/cultura/static/media/qr.dc8eceb2868ca06b1f23.png",
     "static/media/mainLogo.png": "/cultura/static/media/mainLogo.c68741e7af5b726952ae.png",
     "index.html": "/cultura/index.html",
-    "main.9aa20fcb.css.map": "/cultura/static/css/main.9aa20fcb.css.map",
-    "main.7aa9125b.js.map": "/cultura/static/js/main.7aa9125b.js.map"
+    "main.34019dbd.css.map": "/cultura/static/css/main.34019dbd.css.map",
+    "main.2cc0e8fe.js.map": "/cultura/static/js/main.2cc0e8fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aa20fcb.css",
-    "static/js/main.7aa9125b.js"
+    "static/css/main.34019dbd.css",
+    "static/js/main.2cc0e8fe.js"
   ]
 }
