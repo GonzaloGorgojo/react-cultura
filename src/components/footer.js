@@ -2,8 +2,8 @@ import QR from "../assets/qr.png";
 export default function Footer() {
   return (
     <div class="flex bg-neutral-900 justify-around p-3">
-      <div class="flex flex-col justify-center ">
-        <p class=" text-lg sm:text-[1.5rem] text-orange-400 ">
+      <div class="flex flex-col justify-center">
+        <p class=" text-lg sm:text-[1.5rem] text-orange-400 pl-2">
           Conoce mas en <br />
           nuestras redes
         </p>
@@ -15,7 +15,7 @@ export default function Footer() {
           class=" flex items-center text-white mt-2 text-base  sm:text-[1.3rem]"
         >
           <svg
-            class="h-12 w-12 text-black"
+            class="h-10 w-10 text-white "
             width="24"
             height="24"
             viewBox="0 0 24 24"

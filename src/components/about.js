@@ -1,10 +1,7 @@
 export default function About() {
   return (
-    <div
-      class="flex flex-col  items-center py-3 pb-5 border-b-2 border-slate-300"
-      id="about"
-    >
-      <h2 class="text-2xl font-bold mb-5 text-emerald-600">
+    <div class="flex flex-col  items-center py-3 pb-5 " id="about">
+      <h2 class="text-2xl font-bold mb-5 text-emerald-700">
         Un poco sobre Nosotros
       </h2>
       <p class="bg-gradient-to-r from-green-600/25 via-yellow-600/25 to-teal-400/25 w-[90vw] sm:w-[60vw]  text-[1em] sm:font-mono p-2 rounded-lg text-justify shadow-xl shadow-indigo-500/50">

@@ -1,26 +1,28 @@
 import Main3 from "../assets/main3.jpg";
-import { GiSuperMushroom, GiStrong } from "react-icons/gi";
-import { RiPlantLine } from "react-icons/ri";
+import { GiSuperMushroom } from "react-icons/gi";
+import { RiPlantLine, RiMentalHealthLine } from "react-icons/ri";
 
 export default function Tempeh() {
   return (
-    <div id="tempeh" class="pt-5 px-6 border-b-2 border-slate-300">
-      <section class=" text-gray-800 text-center md:text-left">
-        <h2 class="text-3xl font-bold mb-5 text-center">Tempeh</h2>
-
+    <div id="tempeh" class="pt-20 px-6 sm:px-20">
+      <section class=" text-center md:text-left">
         <div class="grid md:grid-cols-2 gap-x-6 xl:gap-x-12 items-center mb-12">
           <div class="mb-6 md:mb-0">
             <div
-              class=" relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
+              class=" flex justify-center"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
             >
-              <img src={Main3} class="w-full" alt="Mainpic" />
+              <img
+                src={Main3}
+                class="w-full sm:w-3/5 rounded-lg "
+                alt="Mainpic"
+              />
             </div>
           </div>
 
           <div class="mb-2 md:mb-0">
-            <h3 class="flex items-center text-2xl font-bold mb-3">
+            <h3 class="flex items-center text-2xl font-bold mb-3 text-emerald-700">
               <GiSuperMushroom size={25} />
               &nbsp;Conoces el Tempeh?
             </h3>
@@ -37,18 +39,22 @@ export default function Tempeh() {
         <div class="grid md:grid-cols-2 gap-x-6 xl:gap-x-12 items-center mb-6">
           <div class="mb-6 md:mb-0 md:order-2">
             <div
-              class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
+              class="flex justify-center"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
             >
-              <img src={Main3} class="w-full" alt="tempeh" />
+              <img
+                src={Main3}
+                class="w-full sm:w-3/5 rounded-lg"
+                alt="tempeh"
+              />
             </div>
           </div>
 
           <div class="mb-6 md:mb-0 md:order-1">
-            <h3 class="text-2xl font-bold mb-3 flex ">
-              <RiPlantLine size={45} />
-              &nbsp; ¿Por qué el tempeh es el mejor sustituto cárnico?
+            <h3 class="text-2xl font-bold mb-3 flex text-emerald-700">
+              <RiPlantLine size={30} />
+              &nbsp;Por qué el tempeh es el mejor sustituto cárnico?
             </h3>
 
             <p class="text-gray-900 sm:font-mono text-justify">
@@ -71,18 +77,22 @@ export default function Tempeh() {
         <div class="grid md:grid-cols-2 gap-x-6 xl:gap-x-12 items-center mb-12">
           <div class="mb-6 md:mb-0">
             <div
-              class="relative overflow-hidden bg-no-repeat bg-cover ripple shadow-lg rounded-lg"
+              class="flex justify-center"
               data-mdb-ripple="true"
               data-mdb-ripple-color="light"
             >
-              <img src={Main3} class="w-full" alt="tempeh" />
+              <img
+                src={Main3}
+                class="w-full sm:w-3/5 rounded-lg"
+                alt="tempeh"
+              />
             </div>
           </div>
 
           <div>
-            <h3 class=" flex text-2xl font-bold mb-3">
-              <GiStrong size={35} />
-              &nbsp; ¿Que beneficios aporta a la salud?
+            <h3 class=" flex text-2xl font-bold mb-3 text-emerald-700">
+              <RiMentalHealthLine size={30} />
+              &nbsp;Que beneficios aporta a la salud?
             </h3>
             <p class="text-gray-900 sm:font-mono text-justify">
               La evidencia actual sobre los posibles beneficios para la salud

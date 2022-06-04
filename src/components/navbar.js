@@ -5,7 +5,7 @@ import Logo from "../assets/mainLogo.png";
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div class="bg-slate-200">
+    <div class="bg-slate-200 shadow-xl">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-around sm:justify-between h-16">
           <div class="flex-shrink-0">
@@ -14,21 +14,27 @@ function NavBar() {
           <div class="hidden md:block ">
             <div class=" flex items-baseline space-x-4">
               <a
+                href="#tempeh"
+                class="hover:text-emerald-700 text-black px-3 py-2 text-[1.5rem] font-black"
+              >
+                Tempeh
+              </a>
+              <a
                 href="#about"
-                class="hover:text-yellow-700 text-black px-3 py-2 text-[1.5rem] font-black"
+                class="hover:text-emerald-700 text-black px-3 py-2 text-[1.5rem] font-black"
               >
                 Nosotros
               </a>
 
               <a
                 href="#work"
-                class="hover:text-yellow-700 text-black px-3 py-2 text-[1.5rem] font-black"
+                class="hover:text-emerald-700 text-black px-3 py-2 text-[1.5rem] font-black"
               >
                 Producto
               </a>
               <a
                 href="#mapa"
-                class="hover:text-yellow-700 text-black px-3 py-2 text-[1.5rem] font-black"
+                class="hover:text-emerald-700 text-black px-3 py-2 text-[1.5rem] font-black"
               >
                 Encontranos
               </a>
@@ -92,27 +98,33 @@ function NavBar() {
         leaveTo="opacity-0 scale-95"
       >
         {(ref) => (
-          <div class="md:hidden ">
+          <div class="md:hidden absolute inset-0 ">
             <div
               ref={ref}
-              class="flex flex-col items-center px-2 pt-2 pb-3 space-y-1 sm:px-3 "
+              class="flex flex-col items-center px-2 pt-2 pb-3 space-y-1 sm:px-3  bg-none"
             >
               <a
+                href="#tempeh"
+                class="bg-slate-200 hover:bg-emerald-700 text-black  block py-2 rounded-md font-bold  text-center w-[35vw] border-2 border-black"
+              >
+                Tempeh
+              </a>
+              <a
                 href="#about"
-                class="bg-gradient-to-r from-green-600 via-yellow-600 to-teal-400 hover:bg-gray-700 text-white block py-2 rounded-md font-medium  text-center w-[50vw]"
+                class="bg-slate-200 hover:bg-emerald-700 text-black  block py-2 rounded-md font-bold  text-center w-[35vw] border-2 border-black"
               >
                 Nosotros
               </a>
 
               <a
                 href="#work"
-                class="bg-gradient-to-r from-green-600 via-yellow-600 to-teal-400 hover:bg-gray-700 text-white block  py-2 rounded-md font-medium text-center w-[50vw]"
+                class="bg-slate-200 hover:bg-emerald-700 text-black  block py-2 rounded-md font-bold  text-center w-[35vw] border-2 border-black"
               >
                 Producto
               </a>
               <a
                 href="#mapa"
-                class="bg-gradient-to-r from-green-600 via-yellow-600 to-teal-400 hover:bg-gray-700 text-white block  py-2 rounded-md font-medium text-center w-[50vw]"
+                class="bg-slate-200 hover:bg-emerald-700 text-black  block py-2 rounded-md font-bold  text-center w-[35vw] border-2 border-black"
               >
                 Encontranos
               </a>

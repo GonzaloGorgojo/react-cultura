@@ -7,14 +7,16 @@ import Tempeh from "./components/tempeh";
 
 function App() {
   return (
-    <div>
-      <NavBar />
+    <div class="relative">
+      <div class="fixed top-0 right-0 left-0">
+        <NavBar />
+      </div>
       <Tempeh />
-      <div class="bg-[url('assets/about.png')] bg-[length:100vw_80vh] bg-no-repeat bg-fixed">
+      <div class="bg-[url('assets/about.png')] bg-cover bg-fixed">
         <About />
+        <Work />
       </div>
 
-      <Work />
       <Map />
       <Footer />
     </div>

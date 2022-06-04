@@ -8,6 +8,9 @@ export default function Work() {
   return (
     <section id="work" class="overflow-hidden text-gray-700 pb-5">
       <div class="container px-5 py-2  lg:pt-6 lg:px-32">
+        <h2 class="text-2xl text-center font-bold mb-5 text-emerald-700">
+          Nuestro Producto
+        </h2>
         <div class="flex flex-wrap -m-1 md:-m-2">
           <div class="flex flex-wrap w-1/2">
             <div class="w-1/2 p-1 md:p-2">
